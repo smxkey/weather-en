@@ -22,7 +22,7 @@ let weather = {
         document.querySelector(".temp").innerText = temp + "°C";
         document.querySelector(".humidity").innerText = "Humidity: " + humidity + "%";
         document.querySelector(".wind").innerText = "Wind speed: " + speed + "km/h";
-        document.body.style.backgroundImage = "url('https://source.unsplash.com/random/1920x1080/?" + description + "')"
+        document.body.style.backgroundImage = "url('https://source.unsplash.com/random/1080x1920/?" + description + "')"
 
 
     },
@@ -44,4 +44,4 @@ document.querySelector(".search-bar").addEventListener("keyup", function(event) 
     }
 })
 
-weather.fetchWeather("varna");
+weather.fetchWeather("boxberg");
